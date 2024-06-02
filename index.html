@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Nama    : Rosdiana Dewi -->
+    <!-- Kelas   : K-1 -->
+    <!-- NIM     : 210511173 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas besar Pemograman V</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>   
+        <img src="Logo_Kabupaten_kuningan.jpg" alt="logo" height="200px">
+        <nav>
+            <h1>KUNINGAN DISCOVERY TOURS AND TRAVELS</h1>
+            <ul class="nav__links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Tourism_Places.html">Tourism Places</a></li>
+                <li><a href="Traditional_Foods.html">Traditional Foods</a></li>
+                <li><a href="Contact_Person.html">Contact Person</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <div class="main">
+        <div class="copy-container">
+            <h1>Selamat Datang.......</h1>
+            <h3>Di Halaman Website Tempat Wisata Kabupaten Kuningan</h3>
+            <img src="animation.gif" style="width: 20rem; padding: 25px 50px" />
+        </div>
+    </div>
+    <div id="judul">
+        <h3>Form Registrasi</h3>
+    </div>
+    <form action="">
+        <div id="kartu">
+            <div class="tools" id="nama-depan">
+                <label for="namadepan" id="namadepan">Nama Depan </label>
+                <input type="text" id="namadepan" placeholder="Nama Depan" required>
+            </div>
+            <div class="tools" id="nama-belakang">
+                <label for="namabelakang" id="namabelakang">Nama Belakang </label>
+                <input type="text" id="namabelakang" placeholder="Nama Belakang" required>
+            </div>
+            <div class="tools" id="jenis-kelamin">
+                <label for="jk" id="jk">Jenis Kelamin </label>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan<br>
+            </div>
+            <div class="tools" id="nik">
+                <label for="nik" id="nik">NIK</label>
+                <input type="number" id="nik" maxlength="13" placeholder="NIK" required>
+            </div>
+            <div class="tools" id="email">
+                <label for="email" id="email">E-Mail </label>
+                <input type="email" id="email" placeholder="E-Mail" required>
+            </div>
+            <div class="tools" id="telepon">
+                <label for="telepon" id="telepon">Telepon </label>
+                <input type="number" id="telepon" maxlength="12" placeholder="Telepon" required>
+            </div>
+            <div class="tools" id="dest">
+                <label for="destinasi">Destinasi</label>
+                <select name="destinasi" id="dest">
+                    <option value="">-- Pilih --</option>
+                    <option value="Gunung_Ciremai">Gunung Ciremai</option>
+                    <option value="Curug-Putri-Palutungan">Curug Putri Palutungan</option>
+                    <option value="Telaga_Biru_Cicerem">Telaga Biru Cicerem</option>
+                    <option value="Taman_Wisata_Alam_Linggarjati">Taman Wisata Alam Linggarjati</option>
+                    <option value="Taman-Cisantana">Taman Cisantana</option>
+                </select>
+                <input type="text" id="dest" placeholder="Destinasi" required>
+            </div>
+            <div class="tools" id="khas">
+                <label for="makanan_khas">Makanan Khas</label>
+                <select name="makanan_khas" id="khas">
+                    <option value="">-- Pilih --</option>
+                    <option value="Nasi_Kasreng">Nasi Kasreng</option>
+                    <option value="Ketempling">Ketempling</option>
+                    <option value="Sop_Buntut_Bakar">Sop Buntut Bakar</option>
+                    <option value="Kwecang">Kwecang</option>
+                    <option value="Tahu_Lamping">Tahu Lamping</option>
+                </select>
+                <input type="text" id="khas" placeholder="Makanan Khas" required>
+            </div>
+            <div class="tools" id="asal">
+                <label for="asal_alamat" id="asal">Asal Alamat </label>
+                <textarea id="asal" name="asal_alamat" rows="4" cols="50" placeholder="Alamat" required>
+                </textarea>
+            </div>
+            <div class="tools" id="keperluan">
+                <label for="layanan" id="layanan">Keperluan Layanan </label><br>
+                <input type="checkbox" id="Pribadi" name="Pribadi" value="Pribadi">
+                <label for="Pribadi">Pribadi</label><br>
+                <input type="checkbox" id="Keluarga" name="Keluarga" value="Keluarga">
+                <label for="Keluarga">Keluarga</label><br>
+                <input type="checkbox" id="Kelompok" name="Kelompok" value="Kelompok">
+                <label for="Kelompok">Kelompok</label><br>
+                <input type="checkbox" id="Sekolah" name="Sekolah" value="Sekolah">
+                <label for="Sekolah">sekolah</label><br>
+                <input type="checkbox" id="Kantor" name="Kantor" value="Kantor">
+                <label for="Kantor">Kantor</label>
+                <input type="checkbox" id="Lainnya" name="Lainnya" value="Lainnya">
+                <label for="Lainnya">Lainnya</label>
+            </div>
+            <div class="tools" id="metode">
+                <label for="metode_pembayaran">Metode Pembayaran</label>
+                <select name="metode_pembayaran" id="metode">
+                    <option value="">-- Pilih --</option>
+                    <option value="Cash">Cash</option>
+                    <option value="Transfer Bank">Tranfer Bank</option>
+                    <option value="Ovo/Dana">Ovo/Dana</option>
+                    <option value="Gopay/Shopeepay">Gopay/Shopeepay</option>
+                    <option value="QR Code">QR Code</option>
+                    <option value="Paypal">Paypal</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <div id="button">
+            <button id="tombol"><a href="simpan.php">Submit</a></button>
+
+            <p>Copyright&copy;2024 info@wisata_kuningan.com</p>
+            <p>Kuningan Discovery Tours and Travels - All Rights Reserved</p>
+        </div>  
+    </footer>
+</body>
+</html>
