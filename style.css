@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body, html {
+    height: 100%;
+    font-family: 'DM Sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:  #2ea5ea;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    background-position: center;
+    margin-bottom: 50px;
+    height: 150px;
+    color: #edf0f1;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.section{
+padding: 20px;
+
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+#kartu{
+    align-items: center;
+    border: 2px solid black;
+    margin: 5px;
+}
+#nama-depan input{
+    margin-left: 100px;
+}
+
+#nama-belakang input{
+    margin-left: 82px;
+}
+
+#jenis-kelamin input{
+    margin-left: 95px;
+}
+#nik input{
+    margin-left: 166px;
+}
+#email input{
+    margin-left: 147px;
+}
+#telepon input{
+    margin-left: 136px;
+}
+#destinasi select{
+    margin-left: 103px;
+}
+#alamat label{
+    margin-top: 0px;
+}
+#asal_alamat textarea{
+    margin-left: 145px;
+}
+#makanan_khas select{
+    margin-left: 103px;
+}
+#keperluan input{
+    margin-left: 200px;
+}
+#metode_pembayaran select{
+    margin-left: 150px;
+}
+#button{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tools{
+    margin-bottom: -20px;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    color: white;
+    padding: 9px 25px;
+    background-color: rgb(65, 18, 45);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: red;
+    border: 1px solid black;
+}
